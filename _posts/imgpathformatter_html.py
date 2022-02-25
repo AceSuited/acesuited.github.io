@@ -16,10 +16,10 @@ lines  = f.readlines()
 
 with open(file_path,'w') as f:
     for line in lines:
-        if "![Untitled]" in line:
-            object = line.split("(")
+        if "<img src=" in line:
+            object = line.split('src="')
             # f.write(object[0] + "(/assets/img/" + object[1][:-1] + '{: width="70%" height="70%"}'+'{:.aligncenter}\n')
-            f.write(object[0] + "(./../.." + object[1][:-1] )
+            f.write(object[0] + 'src="./' + object[1][:-1] )
         else:
             f.write(line)
 

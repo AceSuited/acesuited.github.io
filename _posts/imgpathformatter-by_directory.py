@@ -6,10 +6,10 @@ if len(sys.argv) != 2:
     sys.exit()
 
 
-file_path = sys.argv[1]
+directory_path = sys.argv[1]
 
 
-print("File path : " + file_path)
+print("Directory path : " + directory_path)
 
 f= open(file_path, 'r')
 lines  = f.readlines()

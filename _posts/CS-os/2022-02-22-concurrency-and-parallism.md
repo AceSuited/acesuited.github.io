@@ -22,7 +22,7 @@ last_modified_at: 2022-02-21
 
 <br><br>
 
-<img src="../../assets/img/2022-02-22-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%87%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A7%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC/image-20220222022910938.png" alt="image-20220222022910938" style="zoom:67%;" />
+<img src="../../assets/img/2022-02-22-concurrency-and-parallism/image-20220222022910938.png" alt="image-20220222022910938" style="zoom:67%;" />
 
 <br><br>
 
@@ -35,7 +35,7 @@ last_modified_at: 2022-02-21
 
 <br>
 
-<img src="../../assets/img/2022-02-22-%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%AA%20%E1%84%87%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A7%E1%86%AF%E1%84%89%E1%85%A5%E1%86%BC/image-20220222024029563.png" alt="image-20220222024029563" style="zoom:67%;" />
+<img src="../../assets/img/2022-02-22-2022-02-22-concurrency-and-parallism/image-20220222024029563.png" alt="image-20220222024029563" style="zoom:67%;" />
 
 
 
