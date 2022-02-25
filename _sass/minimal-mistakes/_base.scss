@@ -28,6 +28,7 @@ h4,
 h5,
 h6 {
   margin: 2em 0 0.5em;
+  padding-top: 20px;
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
@@ -75,6 +76,13 @@ ins {
     color: inherit;
   }
 }
+
+/* devinlife comment: 구글 애드 센스의 아래 바 레이아웃 삭제
+ https://github.com/mmistakes/minimal-mistakes/issues/306 */
+ ins.adsbygoogle {
+  border-bottom: none !important;
+}
+
 
 del a {
   color: inherit;
@@ -126,6 +134,7 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
   &:focus {
     @extend %tab-focus;
   }

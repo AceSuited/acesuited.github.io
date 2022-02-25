@@ -1,0 +1,60 @@
+---
+title:  "[BOJ] 파이썬 24511번_queuestack"
+layout: single
+categories: 
+  - BOJ
+
+tags:
+  - [Algorithm, BOJ]
+
+toc: true
+toc_sticky: true
+
+date: 2021-02-24
+last_modified_at: 2021-02-24
+---
+
+
+ [문제링크](https://www.acmicpc.net/problem/24511)
+
+풀이
+
+```python
+import sys
+input = lambda:sys.stdin.readline().strip()
+from collections import deque
+
+
+n = int(input())
+
+infos = list(map(int,input().split()))
+init = list(map(int,input().split()))
+
+m = int(input())
+seq = list(map(int,input().split()))
+
+queue = deque()
+for i in range(n):
+    if infos[i] == 0:
+        queue.append(init[i])
+
+for i in range(m):
+    queue.appendleft(seq[i])
+
+queue.reverse()
+for i in range(m):
+    print(queue[i], end = " ")
+    
+```
+
+
+
+처음에 naive하게 접근했다가 시간초과를 받았다.
+
+-> N개의 자료구조를 만든 뒤, M개의 원소를 넣었다 뺀다면 시간복잡도는 O(NM)이므로 1초내에 해결 불가
+
+
+
+시간을 두고 관찰해 보니, stack은 결과에 아무런 영향을 미치지 않음을 알 수 있었다.
+
+따라서 입력값 중 큐에 해당하는 원소들만 입력 받은 후, 하나의 큐만을 사용하여 구현해도 결과는 같다.

@@ -279,6 +279,7 @@ body {
   text-transform: uppercase;
 }
 
+
 /*
    Page meta
    ========================================================================== */
@@ -336,6 +337,23 @@ body {
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
+  }
+}
+.page__taxonomy-item-tag {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid rgb(240, 178, 121);
+  border-radius: $border-radius;
+  background-color: #f7e9d8;
+  font-family: "KOTRAHOPE";
+  color: $primary-color;
+
+  &:hover {
+    text-decoration: none;
+    color: mix(#f7d282, $text-color, 40%); /* 커서 댈 때 색깔 */
   }
 }
 
@@ -562,3 +580,5 @@ body {
     }
   }
 }
+
+img.aligncenter{display:block;margin: 0 auto; padding-top: 30px; padding-bottom: 30px;}
