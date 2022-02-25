@@ -23,7 +23,7 @@ name                     : "acesuited"
 description              : "An amazing website."
 url                      : "https://acesuited.github.io/"
 baseurl                  : ''
-repository               : "AceSuited/acesuited.github.id" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "AceSuited/acesuited.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -216,7 +216,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 6 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -285,8 +285,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
-      related: true
+      related: false
       sidebar_main : true
       breadcrumbs : true
